@@ -33,7 +33,7 @@ void PrintArray(double[,] array)
     }
 }
 
-int m = DataEntry("Введите значение M: ");
-int n = DataEntry("Введите значение N: ");
-double[,] matrix = CreateRandomArray(m, n, -9, 10);
+int rows = DataEntry("Enter the value of rows: ");
+int columns = DataEntry("Enter the value of columns: ");
+double[,] matrix = CreateRandomArray(rows, columns, -9, 10);
 PrintArray(matrix);
